@@ -12,3 +12,95 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    height: 16%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+
+header img {
+    float: left;
+    border-radius: 50%;
+    padding: 18px 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin-left: 35%;
+}
+
+
+
+header nav {
+    float: right;
+    padding-top: 20px;
+    margin-left: 30%;
+}
+
+header nav li {
+    display: inline;
+
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-top: 5%;
+}
+
+.description {
+    background-color: gray;
+}
+
+.description img {
+    float: left;
+    width: 350px;
+    height: 400px;
+    padding: 40px 30px 20px 80px;
+
+}
+
+.description h2 {
+    padding-top: 80px;
+}
+
+.description p {
+    padding-right: 70px;
+}
+
+.description-p2 {
+    clear: both;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.relationship {
+    padding-left: 80px;
+}
+
+.relationship img {
+
+    width: 300px;
+    height: 350px;
+    float: right;
+    padding: 35px 70px 20px 50px;
+
+}
+
+footer {
+    background-color: gray;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 100px;
+}
